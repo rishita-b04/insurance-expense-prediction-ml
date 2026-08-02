@@ -1,10 +1,20 @@
 # 🏥 Insurance Expense Prediction using Machine Learning
 
+## 🌐 Live Demo
+
+**🔗 Streamlit App:**  
+https://insurance-expense-prediction-ml-eten84mbbcbjcg387la3hh.streamlit.app/
+
+**📂 GitHub Repository:**  
+https://github.com/rishita-b04/insurance-expense-prediction-ml
+
+---
+
 ## 📌 Project Overview
 
-This project predicts an individual's medical insurance expenses based on demographic and lifestyle factors using Machine Learning.
+This project predicts an individual's medical insurance expenses using Machine Learning based on demographic and lifestyle factors such as age, gender, BMI, number of children, smoking status, and region.
 
-The complete workflow includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment through an interactive Streamlit web application.
+The project includes data preprocessing, exploratory data analysis (EDA), machine learning model development, model evaluation, and deployment through an interactive Streamlit web application.
 
 ---
 
@@ -14,16 +24,15 @@ The complete workflow includes data preprocessing, exploratory data analysis (ED
 - Exploratory Data Analysis (EDA)
 - Feature Encoding
 - Multiple Regression Models
-- Best Model Selection
-- Model Serialization (.pkl)
-- Interactive Streamlit Web App
+- Model Evaluation
+- Interactive Streamlit Web Application
 - Real-time Insurance Expense Prediction
 
 ---
 
 ## 📊 Dataset Features
 
-The prediction is based on the following inputs:
+The model predicts medical insurance expenses using the following features:
 
 - Age
 - Gender
@@ -32,9 +41,9 @@ The prediction is based on the following inputs:
 - Smoking Status
 - Region
 
-Target Variable:
+**Target Variable:**
 
-- Insurance Charges (Medical Expenses)
+- Insurance Charges
 
 ---
 
@@ -48,13 +57,12 @@ Target Variable:
 
 ### ✅ Best Model
 
-**XGBoost Regressor**
-
-**R² Score:** **0.90**
+- **XGBoost Regressor**
+- **R² Score: 0.90**
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -63,6 +71,7 @@ Target Variable:
 - XGBoost
 - Joblib
 - Streamlit
+- Plotly
 - Matplotlib
 - Jupyter Notebook
 
@@ -72,12 +81,11 @@ Target Variable:
 
 ```
 insurance-expense-prediction-ml/
-│
-├── app.py
-├── insurance_expense_prediction.ipynb
-├── insurance_expense_model.pkl
-├── insurance.csv
-├── requirements.txt
+│── app.py
+│── insurance_expense_prediction.ipynb
+│── insurance_expense_model.pkl
+│── insurance.csv
+│── requirements.txt
 └── README.md
 ```
 
@@ -85,35 +93,35 @@ insurance-expense-prediction-ml/
 
 ## 🌐 Streamlit Web Application
 
-The project also includes an interactive Streamlit application where users can:
+The deployed Streamlit application allows users to:
 
-- Enter personal details
-- Predict insurance expenses instantly
-- View predictions through an easy-to-use interface
+- Enter insurance-related details
+- Predict medical insurance expenses instantly
+- Interact with a simple and user-friendly interface
 
 ---
 
-## ⚙️ Run the Project Locally
+## ⚙️ Run Locally
 
-### Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/rishita-b04/insurance-expense-prediction-ml.git
 ```
 
-### Move into the Project Folder
+Go to the project folder:
 
 ```bash
 cd insurance-expense-prediction-ml
 ```
 
-### Install Dependencies
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Launch the Streamlit App
+Run the Streamlit application:
 
 ```bash
 streamlit run app.py
@@ -131,15 +139,7 @@ streamlit run app.py
 6. Model Evaluation
 7. Model Saving (.pkl)
 8. Streamlit App Development
-9. Deployment
-
----
-
-## 📌 Future Improvements
-
-- Add model comparison dashboard
-- Deploy using Streamlit Community Cloud
-- Add data visualizations inside the web app
+9. Cloud Deployment using Streamlit
 
 ---
 
@@ -147,6 +147,6 @@ streamlit run app.py
 
 **Rishita Bagri**
 
-B.Tech | Production & Industrial Engineering
+B.Tech – Production & Industrial Engineering
 
 Machine Learning | Data Analytics | Python | SQL | Power BI
