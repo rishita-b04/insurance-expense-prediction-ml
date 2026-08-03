@@ -162,33 +162,7 @@ insurance-expense-prediction-ml/
 - BMI and Age show a stronger relationship with insurance expenses compared to the number of children.
 - XGBoost achieved the best prediction performance among all tested regression models.
 
----
 
-# ⚙️ Run Locally
-
-Clone the repository
-
-```bash
-git clone https://github.com/rishita-b04/insurance-expense-prediction-ml.git
-```
-
-Go to the project directory
-
-```bash
-cd insurance-expense-prediction-ml
-```
-
-Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run streamlit_app.py
-```
 
 ---
 
