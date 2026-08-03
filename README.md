@@ -1,38 +1,24 @@
 # 🏥 Insurance Expense Prediction using Machine Learning
 
-## 🌐 Live Demo
+An end-to-end Machine Learning project that predicts annual medical insurance expenses based on customer demographics and lifestyle factors. The project includes data preprocessing, exploratory data analysis, multiple regression models, and deployment through an interactive multi-page Streamlit web application.
 
-**🔗 Streamlit App:**  
-https://insurance-expense-prediction-ml-eten84mbbcbjcg387la3hh.streamlit.app/
+---
 
-**📂 GitHub Repository:**  
+# 🌐 Live Demo
+
+### 🚀 Streamlit Application
+
+https://insurance-expense-prediction-ml-zrbzm6yegappz8sgd8mabtd.streamlit.app/
+
+### 💻 GitHub Repository
+
 https://github.com/rishita-b04/insurance-expense-prediction-ml
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project predicts an individual's medical insurance expenses using Machine Learning based on demographic and lifestyle factors such as age, gender, BMI, number of children, smoking status, and region.
-
-The project includes data preprocessing, exploratory data analysis (EDA), machine learning model development, model evaluation, and deployment through an interactive Streamlit web application.
-
----
-
-## 🚀 Key Features
-
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature Encoding
-- Multiple Regression Models
-- Model Evaluation
-- Interactive Streamlit Web Application
-- Real-time Insurance Expense Prediction
-
----
-
-## 📊 Dataset Features
-
-The model predicts medical insurance expenses using the following features:
+This project predicts an individual's medical insurance expenses using Machine Learning based on:
 
 - Age
 - Gender
@@ -41,13 +27,44 @@ The model predicts medical insurance expenses using the following features:
 - Smoking Status
 - Region
 
-**Target Variable:**
+The project covers the complete Machine Learning workflow from data preprocessing and exploratory analysis to model deployment using Streamlit.
+
+---
+
+# 🚀 Key Features
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Multiple Regression Models
+- XGBoost-based Final Prediction Model
+- Interactive Multi-page Streamlit Dashboard
+- Real-time Insurance Expense Prediction
+- Interactive Plotly Visualizations
+- Customer Analytics Dashboard
+- Business Insights
+- Downloadable Prediction Report
+
+---
+
+# 📊 Dataset Features
+
+### Input Features
+
+- Age
+- Gender
+- BMI
+- Number of Children
+- Smoking Status
+- Region
+
+### Target Variable
 
 - Insurance Charges
 
 ---
 
-## 🤖 Machine Learning Models Used
+# 🤖 Machine Learning Models Used
 
 - Linear Regression
 - Ridge Regression
@@ -55,81 +72,91 @@ The model predicts medical insurance expenses using the following features:
 - Random Forest Regressor
 - XGBoost Regressor
 
-### ✅ Best Model
+## ✅ Final Model
 
-- **XGBoost Regressor**
-- **R² Score: 0.90**
+**XGBoost Regressor**
+
+**R² Score ≈ 0.90**
 
 ---
 
-## 🛠️ Technologies Used
+# 📊 Analytics Dashboard
+
+The Streamlit Analytics Dashboard provides:
+
+- Customer Summary Metrics
+- Average Expense by Smoking Status
+- Average Expense by Age Group
+- BMI vs Insurance Expense Analysis
+- Feature Correlation Heatmap
+- Key Business Insights
+
+---
+
+# 🌐 Streamlit Web Application
+
+The deployed application includes:
+
+- 🏠 Home Page
+- 💰 Insurance Expense Prediction
+- 📊 Interactive Analytics Dashboard
+- 📈 BMI vs Expense Visualization
+- 👥 Age Group Analysis
+- 🚬 Smoking Status Analysis
+- 🔥 Feature Correlation Heatmap
+- 💵 Insurance Expense in INR
+- 📥 Downloadable Prediction Report
+
+---
+
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
 - XGBoost
-- Joblib
-- Streamlit
 - Plotly
+- Streamlit
 - Matplotlib
 - Jupyter Notebook
+- Pickle
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 insurance-expense-prediction-ml/
-│── app.py
-│── insurance_expense_prediction.ipynb
-│── insurance_expense_model.pkl
-│── insurance.csv
-│── requirements.txt
-└── README.md
+│
+├── streamlit_app.py
+├── insurance.csv
+├── insurance_expense_model.pkl
+├── Insurance Expense Prediction.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 🌐 Streamlit Web Application
+# 📸 Application Preview
 
-The deployed Streamlit application allows users to:
+### 🏠 Home Page
 
-- Enter insurance-related details
-- Predict medical insurance expenses instantly
-- Interact with a simple and user-friendly interface
+(Add Home Screenshot Here)
 
----
+### 💰 Prediction Page
 
-## ⚙️ Run Locally
+(Add Prediction Screenshot Here)
 
-Clone the repository:
+### 📊 Analytics Dashboard
 
-```bash
-git clone https://github.com/rishita-b04/insurance-expense-prediction-ml.git
-```
-
-Go to the project folder:
-
-```bash
-cd insurance-expense-prediction-ml
-```
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Streamlit application:
-
-```bash
-streamlit run app.py
-```
+(Add Analytics Screenshot Here)
 
 ---
 
-## 📈 Project Workflow
+# 📈 Project Workflow
 
 1. Data Collection
 2. Data Cleaning
@@ -137,16 +164,59 @@ streamlit run app.py
 4. Feature Engineering
 5. Model Training
 6. Model Evaluation
-7. Model Saving (.pkl)
-8. Streamlit App Development
-9. Cloud Deployment using Streamlit
+7. Model Selection
+8. Model Serialization (.pkl)
+9. Streamlit App Development
+10. Cloud Deployment using Streamlit Community Cloud
 
 ---
 
-## 👩‍💻 Author
+# 💡 Key Insights
 
-**Rishita Bagri**
+- Smokers have significantly higher insurance expenses than non-smokers.
+- Average insurance expenses increase across higher age groups.
+- BMI and Age show a stronger relationship with insurance expenses compared to the number of children.
+- XGBoost achieved the best prediction performance among all tested regression models.
 
-B.Tech – Production & Industrial Engineering
+---
+
+# ⚙️ Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/rishita-b04/insurance-expense-prediction-ml.git
+```
+
+Go to the project directory
+
+```bash
+cd insurance-expense-prediction-ml
+```
+
+Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+# 👩‍💻 Author
+
+## Rishita Bagri
+
+**B.Tech – Production & Industrial Engineering**
 
 Machine Learning | Data Analytics | Python | SQL | Power BI
+
+GitHub: https://github.com/rishita-b04
+
+---
+
