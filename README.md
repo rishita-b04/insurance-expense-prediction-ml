@@ -138,23 +138,7 @@ insurance-expense-prediction-ml/
 └── .gitignore
 ```
 
----
 
-# 📸 Application Preview
-
-### 🏠 Home Page
-
-(Add Home Screenshot Here)
-
-### 💰 Prediction Page
-
-(Add Prediction Screenshot Here)
-
-### 📊 Analytics Dashboard
-
-(Add Analytics Screenshot Here)
-
----
 
 # 📈 Project Workflow
 
